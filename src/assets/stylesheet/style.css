@@ -133,7 +133,8 @@ li {
   text-transform: capitalize;
   font-weight: 200;
   color: black;
-  padding-bottom: 45px
+  padding-bottom: 45px;
+  position: relative;
 }
 
 .main-about h5:before {
@@ -184,6 +185,7 @@ li {
 
 .apporch-head p {
   padding-bottom: 45px;
+  position: relative;
 }
 
 .apporch-head p::before {
@@ -294,6 +296,7 @@ li {
 .work-head p {
   color: #fff;
   padding-bottom: 30px;
+  position: relative;
 }
 
 .work-head p::before {
@@ -450,6 +453,7 @@ input.form-control {
   font-weight: 700;
   text-align: center;
   padding: 10px 30px;
+  margin: 20px 0 30px 0;
 }
 
 /*COntact PArt End*/
@@ -478,6 +482,7 @@ input.form-control {
 
 .foot-social ul li {
   display: inline-block;
+  margin-left: 10px;
 }
 
 .foot-social ul li a {
@@ -485,10 +490,13 @@ input.form-control {
   border: 1px solid #fff;
   padding: 15px;
   border-radius: 5px;
+  font-size: 18px;
+  transition: all 0.3s;
 }
 
 .foot-social ul li a:hover {
   border: 1px solid red;
+  color: red;
 }
 
 .foot-social ul li .active {

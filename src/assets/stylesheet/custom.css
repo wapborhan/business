@@ -1,0 +1,14 @@
+.panel-group {
+  margin-top: 30px;
+}
+
+
+.panel-collapse {
+  max-height: 700px;
+  overflow: hidden;
+  transition: max-height .5s ease;
+}
+
+.panel-close {
+  max-height: 0;
+}
