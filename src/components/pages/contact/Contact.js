@@ -9,7 +9,6 @@ export default function Contact() {
           <div className="col-lg-12 contact-head">
             <h2>Get Your Free Facebook Analysis Now</h2>
             <h3>Enter your details below</h3>
-
             <Content />
           </div>
         </div>

@@ -39,24 +39,18 @@ class Content extends React.Component {
                   type="text"
                   className="form-control"
                   placeholder="You Name"
-                  aria-label="Username"
-                  aria-describedby="basic-addon1"
                 />
 
                 <input
                   type="text"
                   className="form-control"
                   placeholder="Contact Number"
-                  aria-label="Username"
-                  aria-describedby="basic-addon1"
                 />
 
                 <input
                   type="text"
                   className="form-control"
                   placeholder="Company Name"
-                  aria-label="Username"
-                  aria-describedby="basic-addon1"
                 />
 
                 <button type="submit" className="btn work-btn">

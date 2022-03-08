@@ -9,6 +9,7 @@ import {
   FaLinkedin,
   FaInstagramSquare,
 } from "react-icons/fa";
+import MyCarousel from "./Carousel";
 
 export default class Header extends Component {
   render() {
@@ -99,6 +100,9 @@ export default class Header extends Component {
                   <li>
                     <a href="#work">Our Work</a>
                   </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
                   <button className="head-btn">Free Consultation</button>
                 </ul>
               </div>
@@ -112,44 +116,7 @@ export default class Header extends Component {
             data-ride="carousel"
           >
             <div className="carousel-inner main-slider">
-              <div className="carousel-item active">
-                <img
-                  src="images/slider/slider-1.jpg"
-                  className="d-block w-100"
-                  alt="slide-1"
-                />
-                <div className="carousel-caption ">
-                  <h5>We Providing 1</h5>
-                  <p>Social Media marketing for businesses</p>
-                  <button>FREE CONSULTATION</button>
-                </div>
-              </div>
-
-              <div className="carousel-item">
-                <img
-                  src="images/slider/slider-2.jpg"
-                  className="d-block w-100"
-                  alt="slide-2"
-                />
-                <div className="carousel-caption">
-                  <h5>We Providing 2</h5>
-                  <p>Social Media marketing for businesses</p>
-                  <button>FREE CONSULTATION</button>
-                </div>
-              </div>
-
-              <div className="carousel-item">
-                <img
-                  src="images/slider/slider-1.jpg"
-                  className="d-block w-100"
-                  alt="slide-3"
-                />
-                <div className="carousel-caption">
-                  <h5>We Providing 3</h5>
-                  <p>Social Media marketing for businesses</p>
-                  <button>FREE CONSULTATION</button>
-                </div>
-              </div>
+              <MyCarousel />
             </div>
           </div>
         </div>
