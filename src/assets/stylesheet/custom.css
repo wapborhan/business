@@ -12,3 +12,15 @@
 .panel-close {
   max-height: 0;
 }
+
+.main-menu {padding: 15px 0px !important
+}.head-social {
+   
+    padding: 5px 0px !important;
+}.about-iteam {
+    padding: 30px 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+}

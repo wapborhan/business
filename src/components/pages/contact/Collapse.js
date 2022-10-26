@@ -1,4 +1,5 @@
 import React from "react";
+import Contct from "../../../assets/images/contact-btn.png";
 
 class Content extends React.Component {
   constructor(props) {
@@ -18,7 +19,7 @@ class Content extends React.Component {
             this.setState({ open: !this.state.open });
           }.bind(this)}
         >
-          <img src="images/contact-btn.png" alt="" />
+          <img src={Contct} alt="" />
         </button>
 
         <div

@@ -1,4 +1,6 @@
 import React from "react";
+import Aproach1 from "../../../assets/images/apporch/apporch.jpg";
+import Aproach2 from "../../../assets/images/apporch/apporch2.jpg";
 
 export default function Apporch() {
   return (
@@ -13,7 +15,7 @@ export default function Apporch() {
         <div className="row apporch-frist">
           <div className="col-lg-4 col-md-4 apporch-iteam">
             <div className="apporch-img">
-              <img src="images/apporch/apporch.jpg" alt="" />
+              <img src={Aproach1} alt="" />
             </div>
             <div className="step text-center">
               <h2>1</h2>
@@ -47,7 +49,7 @@ export default function Apporch() {
           </div>
           <div className="col-lg-4 col-md-4 apporch-iteam">
             <div className="apporch-img">
-              <img src="images/apporch/apporch2.jpg" alt="" />
+              <img src={Aproach2} alt="" />
             </div>
             <div className="step2 text-center">
               <h2>2</h2>
@@ -59,7 +61,7 @@ export default function Apporch() {
         <div className="row apporch-frist">
           <div className="col-lg-4 col-md-4 apporch-iteam">
             <div className="apporch-img">
-              <img src="images/apporch/apporch.jpg" alt="" />
+              <img src={Aproach1} alt="" />
             </div>
             <div className="step text-center">
               <h2>3</h2>
@@ -93,7 +95,7 @@ export default function Apporch() {
           </div>
           <div className="col-lg-4 col-md-4 apporch-iteam">
             <div className="apporch-img">
-              <img src="images/apporch/apporch2.jpg" alt="" />
+              <img src={Aproach2} alt="" />
             </div>
             <div className="step2 text-center">
               <h2>4</h2>

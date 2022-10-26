@@ -1,4 +1,9 @@
 import React from "react";
+import Work1 from "../../../assets/images/work/work-1.jpg";
+import Work2 from "../../../assets/images/work/work-2.jpg";
+import Work3 from "../../../assets/images/work/work-3.jpg";
+import Work4 from "../../../assets/images/work/work-4.jpg";
+import WorkOver from "../../../assets/images/work/work-over.png";
 
 export default function Work() {
   return (
@@ -13,98 +18,98 @@ export default function Work() {
         <div className="row work-main">
           <div className="col-lg-3 col-md-3 col-sm-6 m-auto work-iteam">
             <div className="work-iteam-img">
-              <img src="images/work/work-1.jpg" alt="" />
+              <img src={Work1} alt="" />
             </div>
             <div className="work-overley text-center">
               <div className="overly-content">
-                <img src="images/work/work-over.png" alt="" />
+                <img src={WorkOver} alt="" />
                 <h2>Project Name</h2>
-                <h3>Landin Page...</h3>
+                <h3>Landing Page...</h3>
               </div>
             </div>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-6 m-auto work-iteam">
             <div className="work-iteam-img">
-              <img src="images/work/work-2.jpg" alt="" />
+              <img src={Work2} alt="" />
             </div>
             <div className="work-overley text-center">
               <div className="overly-content">
-                <img src="images/work/work-over.png" alt="" />
+                <img src={WorkOver} alt="" />
                 <h2>Project Name</h2>
-                <h3>Landin Page...</h3>
+                <h3>Landing Page...</h3>
               </div>
             </div>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-6 m-auto work-iteam">
             <div className="work-iteam-img">
-              <img src="images/work/work-3.jpg" alt="" />
+              <img src={Work3} alt="" />
             </div>
             <div className="work-overley text-center">
               <div className="overly-content">
-                <img src="images/work/work-over.png" alt="" />
+                <img src={WorkOver} alt="" />
                 <h2>Project Name</h2>
-                <h3>Landin Page...</h3>
+                <h3>Landing Page...</h3>
               </div>
             </div>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-6 m-auto work-iteam">
             <div className="work-iteam-img">
-              <img src="images/work/work-4.jpg" alt="" />
+              <img src={Work4} alt="" />
             </div>
             <div className="work-overley text-center">
               <div className="overly-content">
-                <img src="images/work/work-over.png" alt="" />
+                <img src={WorkOver} alt="" />
                 <h2>Project Name</h2>
-                <h3>Landin Page...</h3>
+                <h3>Landing Page...</h3>
               </div>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-3 col-sm-6 m-auto work-iteam">
             <div className="work-iteam-img">
-              <img src="images/work/work-4.jpg" alt="" />
+              <img src={Work4} alt="" />
             </div>
             <div className="work-overley text-center">
               <div className="overly-content">
-                <img src="images/work/work-over.png" alt="" />
+                <img src={WorkOver} alt="" />
                 <h2>Project Name</h2>
-                <h3>Landin Page...</h3>
+                <h3>Landing Page...</h3>
               </div>
             </div>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-6 m-auto work-iteam">
             <div className="work-iteam-img">
-              <img src="images/work/work-3.jpg" alt="" />
+              <img src={Work3} alt="" />
             </div>
             <div className="work-overley text-center">
               <div className="overly-content">
-                <img src="images/work/work-over.png" alt="" />
+                <img src={WorkOver} alt="" />
                 <h2>Project Name</h2>
-                <h3>Landin Page...</h3>
+                <h3>Landing Page...</h3>
               </div>
             </div>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-6 m-auto work-iteam">
             <div className="work-iteam-img">
-              <img src="images/work/work-2.jpg" alt="" />
+              <img src={Work2} alt="" />
             </div>
             <div className="work-overley text-center">
               <div className="overly-content">
-                <img src="images/work/work-over.png" alt="" />
+                <img src={WorkOver} alt="" />
                 <h2>Project Name</h2>
-                <h3>Landin Page...</h3>
+                <h3>Landing Page...</h3>
               </div>
             </div>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-6 m-auto work-iteam">
             <div className="work-iteam-img">
-              <img src="images/work/work-1.jpg" alt="" />
+              <img src={Work1} alt="" />
             </div>
             <div className="work-overley text-center">
               <div className="overly-content">
-                <img src="images/work/work-over.png" alt="" />
+                <img src={WorkOver} alt="" />
                 <h2>Project Name</h2>
-                <h3>Landin Page...</h3>
+                <h3>Landing Page...</h3>
               </div>
             </div>
           </div>

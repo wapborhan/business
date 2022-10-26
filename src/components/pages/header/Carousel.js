@@ -7,10 +7,13 @@ import {
   CarouselCaption,
 } from "reactstrap";
 
+import SLider1 from "../../../assets/images/slider/slider-1.jpg";
+import SLider2 from "../../../assets/images/slider/slider-2.jpg";
+
 const items = [
   {
     id: 0,
-    src: "images/slider/slider-1.jpg",
+    src: SLider1,
     altText: "We Providing 1",
     caption: `This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
     vel velit auctor aliquet. Aenean sollicitudin, lorem quis
@@ -20,7 +23,7 @@ const items = [
   },
   {
     id: 1,
-    src: "images/slider/slider-2.jpg",
+    src: SLider2,
     altText: "We Providing 2",
     caption: `This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
     vel velit auctor aliquet. Aenean sollicitudin, lorem quis
@@ -30,7 +33,7 @@ const items = [
   },
   {
     id: 2,
-    src: "images/slider/slider-1.jpg",
+    src: SLider1,
     altText: "We Providing 3",
     caption: `This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
     vel velit auctor aliquet. Aenean sollicitudin, lorem quis
@@ -40,7 +43,7 @@ const items = [
   },
   {
     id: 3,
-    src: "images/slider/slider-2.jpg",
+    src: SLider2,
     altText: "We Providing 4",
     caption: `This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
     vel velit auctor aliquet. Aenean sollicitudin, lorem quis

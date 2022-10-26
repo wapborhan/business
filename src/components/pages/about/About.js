@@ -1,4 +1,7 @@
 import React from "react";
+import About1 from "../../../assets/images/about-ic-1.png";
+import About2 from "../../../assets/images/about-ic-2.png";
+import About3 from "../../../assets/images/about-ic-3.png";
 
 export default function About() {
   return (
@@ -14,7 +17,7 @@ export default function About() {
           <div className="col-lg-4 col-md-6">
             <div className="about-iteam">
               <div className="icon">
-                <img src="images/about-ic-1.png" alt="" />
+                <img src={About1} alt="" />
               </div>
               <div className="content">
                 <h2>Facebook Marketing</h2>
@@ -28,7 +31,7 @@ export default function About() {
           <div className="col-lg-4 col-md-6">
             <div className="about-iteam">
               <div className="icon">
-                <img src="images/about-ic-2.png" alt="" />
+                <img src={About2} alt="" />
               </div>
               <div className="content">
                 <h2>Facebook Marketing</h2>
@@ -42,7 +45,7 @@ export default function About() {
           <div className="col-lg-4 col-md-6 m-auto">
             <div className="about-iteam">
               <div className="icon">
-                <img src="images/about-ic-3.png" alt="" />
+                <img src={About3} alt="" />
               </div>
               <div className="content">
                 <h2>Facebook Marketing</h2>

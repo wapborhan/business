@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState, useEffect } from "react";
 import Time from "react-time";
 import {
   FaMobileAlt,
@@ -10,10 +10,33 @@ import {
   FaInstagramSquare,
 } from "react-icons/fa";
 import MyCarousel from "./Carousel";
+import Logo from "../../../assets/images/logo.png";
 
 export default class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      time: new Date().toLocaleTimeString(),
+    };
+  }
+
+  componentDidMount() {
+    this.intervalID = setInterval(() => this.updateClock(), 1000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.intervalID);
+  }
+
+  updateClock() {
+    this.setState({
+      time: new Date().toLocaleTimeString(),
+    });
+  }
+
   render() {
     let now = new Date();
+
     return (
       <section id="header">
         <div className="head-social">
@@ -22,7 +45,8 @@ export default class Header extends Component {
               <div className="col-lg-6">
                 Today is{" "}
                 <b>
-                  <Time value={now} format="hh:mm A - DD-MMMM-YYYY" />
+                  {this.state.time}
+                  <Time value={now} format=" - DD-MMMM-YYYY" />
                 </b>
               </div>
               <div className="col-lg-6">
@@ -65,7 +89,7 @@ export default class Header extends Component {
         <div className="container ">
           <nav className="navbar navbar-expand-lg main-menu ">
             <div className="nav-brand logo">
-              <img src="images/logo.png" alt="logo" />
+              <img src={Logo} alt="logo" />
             </div>
             <button
               className="navbar-toggler"

@@ -67,8 +67,8 @@ export default class Footer extends Component {
               <h3>
                 Copyright © <Time value={now} format="YYYY" /> Business |
                 Designed BY{" "}
-                <a className="text-info" href="http://wapborhan.com">
-                  Borhan Uddin
+                <a className="text-info" href="http://srdreamlab.com">
+                  SR Dream Lab
                 </a>
               </h3>
             </div>
